@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    width:30vw;
+    margin:90px auto;
+    background-color:#014f86;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgb(16, 114, 206);
+}
+h1{
+    text-align: center;
+    color:white;
+    font-family: 'Patrick Hand', cursive;
+}
+input{
+    border-radius: 10px;
+    display: block;
+    background-color:#a9d6e5;
+    margin: 10px auto;
+    font-size: 1.5rem;
+}
+ul li{
+    list-style-type: none;
+    font-size: 1rem;
+    color:white;
+    padding-left: 20px;
+    
+}
+i:nth-of-type(1){
+    color:red;
+}
+i:nth-of-type(2){
+  color:yellow;  
+}
+footer{
+    position:fixed; 
+    bottom: 0; 
+    height:20vh;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+    background-color:#2a6f97;
+    color:#e9ecef;
+}
+
+@media screen and (max-width:1190px) {
+    input{
+        width:70%;
+        font-size:1em;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    footer h3{
+        font-size: 1em;
+          }
+          footer p{
+             font-size:  0.7em;
+          }
+}
